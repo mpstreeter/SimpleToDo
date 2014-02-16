@@ -56,7 +56,7 @@ public class TodoActivity extends Activity
 		itemsAdapter.add( etNewItem.getText().toString() );
 		etNewItem.setText("");
 
-		saveItems(); 
+		saveItems();
 		
 	}
 
